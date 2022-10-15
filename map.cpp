@@ -62,5 +62,8 @@ int main(){
     for(auto &it:std){//& --> doesn't create copy 
         cout<<it.first<<" --> "<<it.second<<endl;
     }
+
+    std.clear();//delete all the elements of map
+    cout<<"Size of map after clear : "<<std.size();
     return 0;
 }
