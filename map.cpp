@@ -37,7 +37,7 @@ int main(){
     cout<<"Element pointed by key "<<std.at(1)<<endl;
 
     //capacity
-    cout<<"Is map empty : "<<std.empty()<<endl;
+    cout<<"Is map empty : "<<std.empty()<<endl;//checking whether map is empty or not
     cout<<"Capacity of map : "<<std.size()<<endl;
     cout<<"Max capacity of map : "<<std.max_size()<<endl;
 
