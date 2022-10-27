@@ -57,7 +57,6 @@ int main(){
         cout<<*it<<" ";
     }
     cout<<endl;
-
     /*--------------------------Modifiers-------------------------*/
     array<int,5>ele;
     ele.fill(1);
