@@ -18,7 +18,7 @@ int main(){
         cout<<*i<<" ";
     }cout<<'\n';
 
-    //accessing
+    //accessing an element 
     cout<<"Element at index 2 : "<<Q.at(2)<<'\n';
 
     //pop
@@ -71,7 +71,7 @@ int main(){
 
     q.clear();//delete all the elements
     cout<<"isempty : "<<q.empty()<<endl;
-    cout<<"Size of q : "<<q.size()<<endl;
+    cout<<"Size of q : "<<q.size()<<endl;//0
 
     //emplace
     cout<<"Emplace : ";
