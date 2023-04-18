@@ -64,7 +64,7 @@ int main() {
         cout<<"Element at index 3 : "<<v.at(3)<<endl;//will throw error if trying to access element which is OutOfBound
         //at() --> safe to use
 
-        //4. clear();//remove all elements
+        //4. clear();//remove all the elements from vector
         //cout<<v.size()<<endl;
 
         //5. emplace()//faster than push_back() & directly creats literal in container;
