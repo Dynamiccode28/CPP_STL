@@ -42,7 +42,7 @@ int main(){
     }
     cout<<endl;
     //clear
-    s.clear();
+    s.clear();//clear set
     cout<<"Size of set s after clear : "<<s.size();
 
     s.emplace(111);//do in_place insertion and avoid copy of obj.
