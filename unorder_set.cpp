@@ -10,7 +10,7 @@ int main(){
         cout<<i<<" ";
     }
     cout<<endl;
-    // u1.insert(500);//adding element 
+    u1.insert(500);//adding element 
     // u1.clear();//Remove all the elements
     cout<<u1.count(5)<<endl;//whether element present or not
 
