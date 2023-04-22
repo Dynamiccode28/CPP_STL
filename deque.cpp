@@ -69,7 +69,7 @@ int main(){
         cout<<*i<<" ";
     }cout<<'\n';
 
-    q.clear();//delete all the elements
+    q.clear();//delete all the elements from queue
     cout<<"isempty : "<<q.empty()<<endl;
     cout<<"Size of q : "<<q.size()<<endl;//0
 
